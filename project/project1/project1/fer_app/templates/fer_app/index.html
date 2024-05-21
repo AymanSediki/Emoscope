@@ -1,0 +1,429 @@
+{% load static%}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>EmoScope</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="HTML5 website template" />
+    <meta name="keywords" content="Facial Emotions Recognition" />
+    <meta name="author" content="Mohamed Idrissi Ghalmi" />
+    <link rel="stylesheet" href="../../static/fer_app/assets/css/main.css" />
+  </head>
+  <body>
+    <!-- notification for small viewports and landscape oriented smartphones -->
+    <div class="device-notification">
+      <a class="device-notification--logo" href="">
+        <img src="../../static/fer_app/assets/img/logo.png" alt="Global" />
+        <p>EmoScope</p>
+      </a>
+      <p class="device-notification--message">
+        Global has so much to offer that we must request you orient your device
+        to portrait or find a larger screen. You won't be disappointed.
+      </p>
+    </div>
+
+    <div class="perspective effect-rotate-left">
+      <div class="container">
+        <div class="outer-nav--return"></div>
+        <div id="viewport" class="l-viewport">
+          <div class="l-wrapper">
+            <header class="header">
+              <a class="header--logo" href="">
+                <img
+                  src="../../static/fer_app/assets/img/logo.png"
+                  alt="Global"
+                />
+                <p id="gen-title">EmoScope</p>
+              </a>
+              <div class="header--nav-toggle">
+                <span></span>
+              </div>
+            </header>
+            <nav class="l-side-nav">
+              <ul class="side-nav">
+                <li class="is-active"><span>Home</span></li>
+                <li><span>About</span></li>
+                <li><span>How To Use</span></li>
+                <li><span>Try EmoScope</span></li>
+                <li><span>Upload Image</span></li>
+              </ul>
+            </nav>
+            <ul class="l-main-content main-content">
+              <!-- Home -->
+              <li class="l-section section section--is-active">
+                <div class="intro">
+                  <div class="intro--banner">
+                    <h1>
+                      EmoScope -<br />Facial<br />Emotions<br />Recognition<br />
+                      App
+                    </h1>
+                    <img
+                      src="../../static/fer_app/assets/img/introduction-visual.png"
+                      alt="Welcome"
+                    />
+                  </div>
+                </div>
+              </li>
+              <!-- About -->
+              <li class="l-section section">
+                <div class="about">
+                  <div class="about--banner">
+                    <h2>About</h2>
+                    <h3>
+                      Introducing EmoScope, an innovative emotion recognition
+                      app developed as a pivotal part of our final year project.
+                      This app is not just a technological achievement; it’s a
+                      window into the human soul, designed to identify and
+                      interpret a spectrum of emotions through a simple webcam
+                      interface. With the capability to discern six emotions:
+                      anger, happiness, neutrality, sadness, fear, and surprise,
+                      our app represents a leap forward in emotional AI. It’s a
+                      tool that could revolutionize the way we interact with
+                      machines, making our digital experiences more intuitive
+                      and empathetic. This app is the culmination of rigorous
+                      research and development, aiming to bridge the gap between
+                      human emotion and technology. Whether it’s for enhancing
+                      user experience, aiding psychological studies, or creating
+                      more engaging social platforms, we are poised to make an
+                      impact. Join us in exploring the uncharted territory of
+                      emotional AI and discover the potential of EmoScope –
+                      where technology meets emotion.
+                    </h3>
+                  </div>
+                </div>
+              </li>
+              <!-- How To Use -->
+              <li class="l-section section">
+                <div class="work">
+                  <h2>How To Use</h2>
+                  <div class="work--lockup">
+                    <ul class="slider">
+                      <li class="slider--item slider--item-left">
+                        <a href="">
+                          <div class="slider--item-image">
+                            <img
+                              src="../../static/fer_app/assets/img/work-victory.jpg"
+                              alt="Victory"
+                            />
+                          </div>
+                          <p class="slider--item-title">Lighting</p>
+                          <p class="slider--item-description">
+                            Ensure that your face is well-lit. Natural lighting
+                            is often best, but if indoors, suggest evenly
+                            distributed lighting without harsh shadows.
+                          </p>
+                        </a>
+                      </li>
+                      <li class="slider--item slider--item-center">
+                        <a href="">
+                          <div class="slider--item-image">
+                            <img
+                              src="../../static/fer_app/assets/img/work-metiew-smith.jpg"
+                              alt="Metiew and Smith"
+                            />
+                          </div>
+                          <p class="slider--item-title">Positioning</p>
+                          <p class="slider--item-description">
+                            Please position yourselves properly in front of the
+                            webcam. Your face should be centered and occupy a
+                            significant portion of the frame without being too
+                            close or too far.
+                          </p>
+                        </a>
+                      </li>
+                      <li class="slider--item slider--item-right">
+                        <a href="">
+                          <div class="slider--item-image">
+                            <img
+                              src="../../static/fer_app/assets/img/work-alex-nowak.jpg"
+                              alt="Alex Nowak"
+                            />
+                          </div>
+                          <p class="slider--item-title">Internet</p>
+                          <p class="slider--item-description">
+                            Internet connection and device performance can
+                            affect the real-time processing of webcam images. A
+                            stable internet connection and a capable device can
+                            improve performance.
+                          </p>
+                        </a>
+                      </li>
+                    </ul>
+                    <div class="slider--prev">
+                      <svg
+                        version="1.1"
+                        id="Layer_1"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        x="0px"
+                        y="0px"
+                        viewBox="0 0 150 118"
+                        style="
+                          enable-background: new 0 0 150 118;
+                          transform: rotate(180deg);
+                        "
+                        xml:space="preserve"
+                      >
+                        <g
+                          transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)"
+                        >
+                          <path
+                            d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"
+                          />
+                        </g>
+                      </svg>
+                    </div>
+
+                    <div class="slider--next">
+                      <svg
+                        version="1.1"
+                        id="Layer_1"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        x="0px"
+                        y="0px"
+                        viewBox="0 0 150 118"
+                        style="enable-background: new 0 0 150 118"
+                        xml:space="preserve"
+                      >
+                        <g
+                          transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)"
+                        >
+                          <path
+                            d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"
+                          />
+                        </g>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <!-- Try EmoScope -->
+              <li class="l-section section">
+                <div class="hire">
+                  <h2
+                    style="
+                      position: fixed;
+                      top: 0;
+                      left: 50%;
+                      transform: translateX(-50%);
+                    "
+                  >
+                    Try EmoScope
+                  </h2>
+                  <button
+                    id="startStopButton"
+                    style="
+                      background-color: blue;
+                      color: white;
+                      padding: 10px 20px;
+                      max-width: 100px;
+                      margin: 0 10px;
+                      border: none;
+                      cursor: pointer;
+                      border-radius: 5px;
+                      transform: translateX(300%) translateY(-150%);
+                    "
+                    onclick="toggleVideo()"
+                  >
+                    Start
+                  </button>
+                  <img
+                    src="../../static/fer_app/assets/img/face-rec.jpg"
+                    alt=""
+                    id="buttonImage"
+                    style="
+                      height: 300px;
+                      width: 300px;
+                      transform: translateX(69%) translateY(-15%);
+                      border-radius: 15px;
+                    "
+                  />
+                  <div
+                    id="videoContainer"
+                    style="display: none; border-radius: 45px"
+                  >
+                    <img
+                      id="videoFeed"
+                      src=""
+                      style="
+                        height: 420px;
+                        width: 500px;
+                        border-radius: 15px;
+                        transform: translateX(25%);
+                      "
+                    />
+                  </div>
+                </div>
+              </li>
+
+              <!-- Start of upload section -->
+              <li class="l-section section">
+                <div class="upload-container">
+                  <form id="emotion-form" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    <input
+                      type="file"
+                      id="image-input"
+                      name="image"
+                      accept="image/*"
+                    />
+                    <button
+                      type="button"
+                      id="detect-emotion-btn"
+                      style="
+                        background-color: blue;
+                        color: white;
+                        padding: 10px 20px;
+                        max-width: 200px;
+                        margin: 0 10px;
+                        border: none;
+                        cursor: pointer;
+                        border-radius: 5px;
+                        transform: translateX(-50%) translateY(10%);
+                      "
+                    >
+                      Detect Emotion
+                    </button>
+                  </form>
+                  <div id="result-container" style="display: none">
+                    <h2>Emotion Detection Result</h2>
+                    <img
+                      id="result-image"
+                      src=""
+                      alt="Emotion Detection Result"
+                      style="height: 450px; width: 450px"
+                    />
+                  </div>
+                </div>
+              </li>
+              <!-- End of upload section -->
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <ul class="outer-nav">
+        <li class="is-active">Home</li>
+        <li>About</li>
+        <li>How To Use</li>
+        <li>Try EmoScope</li>
+        <li>Upload Image</li>
+      </ul>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script>
+      window.jQuery ||
+        document.write(
+          '<script src="../../static/fer_app/assets/js/vendor/jquery-2.2.4.min.js"><\/script>'
+        );
+    </script>
+    <script src="../../static/fer_app/assets/js/functions-min.js"></script>
+
+    <!--Image upload script-->
+    <script>
+      console.log("hi");
+
+      document
+        .getElementById("detect-emotion-btn")
+        .addEventListener("click", function () {
+          var form = document.getElementById("emotion-form");
+          var formData = new FormData(form);
+
+          var xhr = new XMLHttpRequest();
+          xhr.open("POST", "{% url 'detect_emotion' %}");
+
+          xhr.onreadystatechange = function () {
+            if (xhr.readyState === XMLHttpRequest.DONE) {
+              if (xhr.status === 200) {
+                var result = JSON.parse(xhr.responseText);
+                console.log(result);
+
+                var resultContainer =
+                  document.getElementById("result-container");
+                var resultImage = document.getElementById("result-image");
+                console.log("hi");
+
+                resultImage.src = result.image_path;
+
+                console.log(resultImage.src);
+                resultContainer.style.display = "block";
+              } else {
+                console.error("Error:", xhr.statusText);
+              }
+            }
+          };
+          xhr.send(formData);
+        });
+    </script>
+    <style>
+      .upload-container {
+        margin-top: 20px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .upload-container form {
+        width: 300px;
+      }
+    </style>
+
+    <!--Script for TryEmoScope-->
+    <script>
+      let isStreaming = false;
+      const button = document.getElementById("startStopButton");
+      const initialButtonStyle = button.style.cssText; // Store initial button styling
+
+      function toggleVideo() {
+        const videoContainer = document.getElementById("videoContainer");
+        const videoFeed = document.getElementById("videoFeed");
+        const buttonImage = document.getElementById("buttonImage");
+
+        if (isStreaming) {
+          videoFeed.src = "";
+          videoContainer.style.display = "none";
+          button.innerText = "Start";
+          button.style.cssText = initialButtonStyle;
+          buttonImage.style.display = "block";
+        } else {
+          videoFeed.src = "{% url 'video_feed' %}";
+          videoContainer.style.display = "block";
+          button.innerText = "Stop";
+          button.style.cssText =
+            initialButtonStyle +
+            " transform: translateX(300%) translateY(-1%);";
+          buttonImage.style.display = "none";
+        }
+
+        isStreaming = !isStreaming;
+      }
+    </script>
+    <!--Color changing Title-->
+    <script>
+      function changeColor() {
+        var element = document.getElementById("gen-title");
+
+        function getRandomColor() {
+          var r = Math.floor(Math.random() * 256);
+          var g = Math.floor(Math.random() * 256);
+          var b = Math.floor(Math.random() * 256);
+          return "rgb(" + r + "," + g + "," + b + ")";
+        }
+
+        function updateColor() {
+          var randomColor = getRandomColor();
+          element.style.color = randomColor;
+        }
+
+        setInterval(updateColor, 800);
+      }
+      window.onload = changeColor;
+    </script>
+  </body>
+</html>
